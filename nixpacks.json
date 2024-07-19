@@ -1,0 +1,13 @@
+{
+  "phases": {
+    "setup": {
+      "pkgs": ["python39", "pip"]
+    },
+    "install": {
+      "cmds": ["pip install -r requirements.txt"]
+    },
+    "start": {
+      "cmds": ["python app.py"]
+    }
+  }
+}
